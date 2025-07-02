@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    background-color: black;
+    padding: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#navegacao{
+    text-align: center;
+}
+
+.bemvindo{
+    text-align: center;
+    background-image: url(imagens/pexels-narda-yescas-1566837.jpg);
+    padding: 140px 190px 300px 190px;
+    color: white;
+    background-position: 30% 20%;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+#alessio{
+    font-size: 3em;
+}
+
+#saborosas{
+    margin-top: 10px;
+}
+
+#vercardapio{
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 22);
+}
+
+#cardapio{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.item1{
+    background-color: rgb(236, 236, 236);
+    margin-left: 13%;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 1.5%;
+}
+
+.itens{
+    background-color: rgb(236, 236, 236);
+    margin-left: 1%;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 1.5%;
+    cursor: pointer;
+}
+
+.imagempizza{
+    width: 450px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nomepizza{
+    padding: 2% 1% 3% 3%;
+    font-size: 150%;
+}
+
+.descpizza{
+    margin: 2% 1% 3% 3%;
+    font-size: 150%;
+}
+
+.itens:hover, .item1:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+.sobre{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imagens/pexels-eneida-nieves-905847.jpg);
+    text-align: center;
+    padding: 2%;
+    background-position: 10% 48%;
+    color: white;
+}
+
+#nos{
+    font-size: 300%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+#nossa{
+    font-size: 150%;
+    margin-bottom: 1%;
+}
+
+#contato{
+    text-align: center;
+    margin-top: 4%;
+}
+
+#tcontato{
+    font-size: 300%;
+    margin-bottom: 1%;
+}
+
+#desccontato{
+    font-size: 140%;
+}
+
+.maisinf{
+    margin-left: 2%;
+    font-size: 140%;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+#email{
+    color: rgb(255, 174, 22);
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+}
+
+#peca{
+    background-color: rgb(255, 174, 22);
+    position: relative;
+    left: 46.5%;
+    padding: 0.6% 1.3%;
+    border-radius: 5px;
+    font-size: 90%;
+    margin-top: 2%;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 174, 22);
+    text-align: center;
+    font-size: 140%;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
